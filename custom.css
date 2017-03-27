@@ -1,0 +1,66 @@
+#ajax{
+  background-image:url(images/a.jpg);
+}
+
+#header_bg{
+  color: Blue;
+}
+#header_details{
+  color: Blue;
+}
+#movie_detail{
+  color: Black;
+  background-image:url(images/a.jpg);
+}
+/*** home **/
+
+#branding{
+background:url(images/database-icon.png) no-repeat;
+width:260px;
+height:260px;
+text-indent:-999px;
+font-size:0px;
+margin:-10px auto 0 auto;
+border-bottom:1px solid rgba(65, 38, 37, 0.6);
+}
+
+
+/** add the stars to the drop down */
+#note_utilisateur-menu a{
+padding-left:100px;
+position:relative;
+}
+
+#note_utilisateur-button span.ui-btn-text{
+background:url(images/pagination.png) no-repeat;
+}
+
+#note_utilisateur-button span.ui-btn-inner{
+	padding-left:5px;
+}
+
+#note_utilisateur-menu li a:before{
+content: "   ";
+display:inline-block;
+width:115px;
+height:20px;
+background:url(images/pagination.png) no-repeat;
+position:absolute;
+left:0px;
+}
+.one #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li a:before{
+background-position: -75px -182px;
+}
+.two #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li + li a:before{
+background-position: -52px -182px;
+}
+.three #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li + li +li a:before{
+background-position: -27px -182px;
+}
+.four #note_utilisateur-button span.ui-btn-text,
+#note_utilisateur-menu li + li +li +li a:before{
+background-position: -2px -182px;
+}
